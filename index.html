@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carta para Sani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Great Vibes', cursive;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .envelope {
+      position: relative;
+      width: 700px;
+      height: 500px;
+      perspective: 1000px;
+    }
+
+    .letter {
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 245, 230, 0.15);
+      background-image: url('https://www.transparenttextures.com/patterns/old-mathematics.png');
+      background-blend-mode: overlay;
+      background-size: cover;
+      background-repeat: repeat;
+      border: 1px solid #ccc;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      padding: 20px;
+      box-sizing: border-box;
+      transform-style: preserve-3d;
+      transform: rotateX(-90deg);
+      animation: openLetter 2s ease-out forwards;
+      overflow-y: auto;
+      border-radius: 12px;
+      backdrop-filter: blur(1px);
+      transition: transform 1s;
+    }
+
+    @keyframes openLetter {
+      to {
+        transform: rotateX(0deg);
+      }
+    }
+
+    .photo {
+      float: left;
+      width: 180px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .text {
+      font-size: 20px;
+      line-height: 1.8;
+      color: #333333;
+    }
+
+    .signature {
+      font-family: 'Great Vibes', cursive;
+      font-size: 22px;
+      color: #5a3e36;
+      margin-top: 20px;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .letter::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .letter::-webkit-scrollbar-thumb {
+      background-color: #aaa;
+      border-radius: 3px;
+    }
+
+    .music-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(255,255,255,0.8);
+      border: none;
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-family: inherit;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="envelope">
+    <div class="letter">
+      <img class="photo" src="img.jpeg" alt="Foto de los dos" />
+      <div class="text">
+        <p>Hola, Sani:</p>
+        <p>Esta carta es el resultado de muchas madrugadas de insomnio, en las que te recordaba y me llenaba de nostalgia al pensar en ti...</p>
+        <p>Hoy siento la necesidad de escribirte estas palabras. No lo hago porque espere una respuesta, sino porque necesito liberar todo lo que llevo dentro.
+            Durante estos dos años he guardado este amor que siento por ti, con la esperanza de que algún día las cosas fueran diferentes. Pero ahora entiendo que debo soltar lo que me lastima y seguir adelante, aunque me duela.
+            Te amé con todo mi corazón, y aún siento cosas por ti. Mi amor siempre fue verdadero, sincero y sin condiciones. Desde el primer momento en que entraste en mi vida, me entregué por completo. Estuve para ti en los momentos buenos y en los difíciles. Siempre te apoyé, te cuidé y te amé sin reservas. Pero, a pesar de todo eso, me quedé solo.
+            Me prometiste muchas cosas. Me hiciste creer en un futuro juntos, en un amor que resistiría cualquier obstáculo. Pero esas promesas quedaron en el aire cuando decidiste irte y elegiste a alguien más. Me duele saber que, mientras yo seguía esperándote, tú ya habías tomado otro camino sin mirar atrás.
+            No te culpo por buscar tu felicidad, pero sí me duele recordar todo lo que me hiciste. Me duele saber que, mientras yo soñaba con tu regreso, tú ya habías encontrado otro amor. No merecía esto, porque todo lo que sentí por ti fue real. Cada palabra que te dije fue desde el corazón. Jamás te di la espalda, siempre estuve ahí cuando me necesitaste.
+            La razón por la que me cuesta tanto dejarte ir es porque, en el fondo, seguía teniendo esperanza. Siempre creí que a veces las personas correctas, aunque lleguen en el momento equivocado, pueden tener una otra oportunidad. Incluso encontré ese video donde me decías: “Estaré sola… pero si algún día lo intento, será contigo, cuando esté bien.” Elegí creer en tus palabras… pero así es la vida: no todos cumplen lo que prometen.
+            Elegí quedarme solo, crecer, convertirme en el hombre que soñé ser… un ingeniero para esa abogada que no se pudo quedar. Sé que no todos olvidamos de la misma manera. A veces me pregunto cómo lo lograste: no escribir, no llamar, no buscar, no extrañar… actuar como si nunca hubiera existido un “nosotros”
+            Estuve esperándote dos años. Lo intenté muchas veces, y lo sabes. Puse todo de mi parte para que funcionara, pero solo recibí rechazos. Tuve que soportar verte con otras personas. tragarme el orgullo, fingir que no dolía, y no sabes cuánto dolía. Pero entendí que no podía hacer nada más. Tal vez ese es mi karma… y el tuyo será saber que perdiste a un gran hombre que estuvo dispuesto a darlo todo por ti.
+            Nuestro “casi algo” siempre me perseguirá. Aun así, hoy elijo despedirme de este dolor. No quiero seguir aferrándome a algo que ya no existe. No quiero seguir sufriendo por alguien que ya no piensa en mí. Te dejo ir… no porque haya dejado de amarte —tú lo sabes— sino porque necesito amarme a mí mismo. Porque merezco paz, merezco felicidad, merezco encontrar mi propio camino sin que tu recuerdo me persiga.
+            Ojalá algún día recuerdes lo que tuvimos y entiendas que mi amor fue genuino. No te guardo rencor. Solo deseo encontrar mi propia paz. Esta es mi despedida, porque ya no quiero seguir esperando a alguien que nunca volverá. Sé que el tiempo se encargará de mostrarte, en meses o en años, que lo que estabas buscando en una relación… ya lo habías tenido, y lo dejaste ir.
+            Y sí, sé que esto contradice muchas cosas que te dije antes. Pero, aun así, te prometí que iba a estar para ti siempre. Y si alguna vez me necesitas… o necesitas un lugar seguro, tal vez este ahí. O tal vez ya no.
+            me hubiese gustado verte una ultima vez, pero se cuál es tu respuesta
+            Te deseo que seas feliz, con la persona que elegiste 
+            </p>
+        <p class="signature">Adiós, mi Sani.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Música de fondo (audio) -->
+  <audio autoplay loop id="bg-music">
+    <source src="aqui estoy yo.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <!-- Botón opcional por si autoplay falla -->
+  <button class="music-btn" onclick="document.getElementById('bg-music').play()">🎵 Reproducir música</button>
+
+  <script>
+    window.onload = function() {
+      document.querySelector('.letter').style.transform = 'rotateX(0deg)';
+    };
+  </script>
+</body>
+</html>
